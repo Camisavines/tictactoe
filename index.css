@@ -1,0 +1,59 @@
+html {
+  background-color: white;
+  text-align: center;
+  align-items: center
+}
+
+#title {
+  font-size: 6em;
+  font-family: times;
+  font-weight: lighter;
+  color: black;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: times;
+  font-weight: lighter;
+  color: black;
+}
+
+#redScore {
+  color: red;
+}
+
+#blueScore {
+  color: blue;
+}
+
+.box {
+  height: 175px;
+  width: 175px;
+  border-radius: 100px;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  height: 180px;
+  width: 180px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: white;
+}
+
+.button {
+  height: 155px;
+  width: 60%;
+  border-radius: 20px;
+  background-color: white;
+  color: gray;
+  font-size: 3em;
+  font-family: times;
+}
