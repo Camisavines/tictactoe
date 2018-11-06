@@ -1,7 +1,12 @@
 html {
   background-color: white;
-  text-align: center;
+  text-align: left;
   align-items: center
+}
+
+.containers {
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #title {
@@ -11,7 +16,7 @@ html {
   color: black;
 }
 
-h1 {
+h1, h3 {
   font-size: 3em;
   font-family: times;
   font-weight: lighter;
@@ -27,8 +32,8 @@ h1 {
 }
 
 .box {
-  height: 175px;
-  width: 175px;
+  height: 100px;
+  width: 100px;
   border-radius: 100px;
   background-color: white;
   display: inline-block;

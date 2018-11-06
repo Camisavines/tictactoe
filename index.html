@@ -4,38 +4,59 @@
     <meta charset="utf-8">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="./index.css" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </head>
   <body>
-    <h1 id="title">Tic-Tac-Toe</h1>
-<div class="row">
-  <div class="box" id="1"></div>
-  <div class="box" id="2"></div>
-  <div class="box" id="3"></div>
-</div>
-<div class="row">
-  <div class="box" id="4"></div>
-  <div class="box" id="5"></div>
-  <div class="box" id="6"></div>
-</div>
-<div class="row">
-  <div class="box" id="7"></div>
-  <div class="box" id="8"></div>
-  <div class="box" id="9"></div>
-</div>
 
-<div class="redScore">
-  <h1>Red Score <div id="redScore">0</div></h1>
-</div>
+    <div class="containers">
+      <div class="row">
+        <div class="col s12 m6">
 
-<div class="blueScore">
-  <h1>Blue Score <div id="blueScore">0</div></h1>
-</div>
+          <h1 id="title">Tic-Tac-Toe</h1>
 
-<div class="tieGame">
-  <h1>Tie Game<div id="tieGame">0</div></h1>
-</div>
+          <div class="redScore">
+            <h3>Red Score: <span id="redScore">0</span></h3>
+          </div>
+
+          <div class="blueScore">
+            <h3>Blue Score: <span id="blueScore">0</span></h3>
+          </div>
+
+          <div class="tieGame">
+            <h3>Tie Games: <span id="tieGame">0</span></h3>
+          </div>
+
+
+        </div>
+
+        <div class="s12 m6">
+
+          <div class="row">
+            <div class="col s1 box" id="1"></div>
+            <div class="col s1 box" id="2"></div>
+            <div class="col s1 box" id="3"></div>
+          </div>
+          <div class="row">
+            <div class="col s1 box" id="4"></div>
+            <div class="col s1 box" id="5"></div>
+            <div class="col s1 box" id="6"></div>
+          </div>
+          <div class="row">
+            <div class="col s1 box" id="7"></div>
+            <div class="col s1 box" id="8"></div>
+            <div class="col s1 box" id="9"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
 
 
   </body>
